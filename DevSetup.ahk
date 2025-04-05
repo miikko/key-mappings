@@ -23,6 +23,10 @@ k::Send "{Left}"
 ^+k::Send "^+{Left}"
 ^+ö::Send "^+{Right}"
 
+; For Chrome history navigation
+!k::Send "!{Left}"
+!ö::Send "!{Right}"
+
 ; Curly and square brackets
 i::Send "{{}"
 p::Send "{}}"
